@@ -164,4 +164,46 @@ button{
     color: #fff;
     margin-right: 15px;
 }
-/* Profile related styles */
+/* Slider slick related styles */
+.slider-overly{
+    padding: 300px 0;
+    background: rgba(0, 0, 0, 0.74);
+}
+#slider-slick{
+    background: rgba(0, 0, 0, 0.74);
+}
+.slider-one{
+    background: url(../Images/Ds.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.slider-two{
+    background: url(../Images/banner\ 1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.slider-three{
+    background: url(../Images/banner\ 2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.prev{
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 25px;
+    transform: translateY(-50%);
+    z-index: 2345;
+}
+.next{
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    right: 25px;
+    transform: translateY(-50%);
+}

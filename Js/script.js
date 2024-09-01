@@ -37,3 +37,14 @@ $(function(){
 var containerEl = document.querySelector('.fillGal');
 
 var mixer = mixitup(containerEl);
+
+// Slider Slick
+$('.slideras').slick({
+	slidesToShow: 1,
+	slidesToScroll: 1,
+	autoplay: false,
+	arrows: true,
+	autoplaySpeed: 2000,
+	prevArrow:'<i class="fa-solid fa-chevron-left prev"></i>',
+	nextArrow:'<i class="fa-solid fa-chevron-right next"></i>',
+  });
